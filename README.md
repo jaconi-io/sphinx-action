@@ -1,5 +1,26 @@
 # Sphinx Build Action
 
+> sphinx-action will be archived on March 8, 2024.
+>
+> Please replace
+> 
+> ```
+> - uses: jaconi-io/sphinx-action@master
+>   with:
+>     docs-folder: "docs/"
+> ```
+>
+> with
+>
+> ```
+> - uses: ammaraskar/sphinx-action@master
+>   with:
+>     pre-build-command: "pip install 'sphinx==4.2.0' --force-reinstall"
+>     docs-folder: "docs/"
+> ```
+>
+> to achieve the same result.
+
 [![Build Status](https://travis-ci.org/ammaraskar/sphinx-action.svg?branch=master)](https://travis-ci.org/ammaraskar/sphinx-action)
 [![Test Coverage](https://codecov.io/gh/ammaraskar/sphinx-action/branch/master/graph/badge.svg)](https://codecov.io/gh/ammaraskar/sphinx-action)
 
